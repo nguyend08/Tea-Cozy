@@ -4,6 +4,7 @@ body {
   color: seashell;
   background-color: black;
   opacity: 0.9;
+  text-align: center;
 }
 
 .header {
@@ -25,7 +26,7 @@ nav span a {
   padding-right: 20px;
 }
 
-.main-content {
+.section-mission {
   display: flex;
   justify-content: center;
 }
@@ -38,7 +39,6 @@ nav span a {
   height: 700px;
   width: 1200px;
   flex-direction: column;
-  text-align: center;
 }
 
 .mission-title {
@@ -52,4 +52,26 @@ nav span a {
 h2, h4 {
   margin: 0;
   padding: 10px;
+}
+
+.section-totm {
+  height: 1000px;
+  width: 800px;
+  margin: auto;
+  padding-top: 60px;
+}
+
+.teas-totm {
+  display: flex;
+  text-align: center;
+  width: 100%;
+  height:auto;
+  margin:auto;
+}
+
+.teas img {
+  height: 200px;
+  width: 300px;
+  border: 1px solid blue;
+
 }
