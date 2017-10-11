@@ -8,13 +8,12 @@ body {
 
 .header {
   display: flex;
-  position:fixed;
   width: 100%;
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid seashell;
   height: 69px;
-  z-index: 5;
+  z-index: 1;
 }
 
 .logo {
@@ -24,4 +23,33 @@ body {
 nav span a {
   color: seashell;
   padding-right: 20px;
+}
+
+.main-content {
+  display: flex;
+  justify-content: center;
+}
+
+.mission {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  flex-direction: column;
+  text-align: center;
+}
+
+.mission-title {
+  background-color: black;
+}
+
+.mission-text {
+  background-color: black;
+}
+
+h2, h4 {
+  margin: 0;
+  padding: 10px;
 }
