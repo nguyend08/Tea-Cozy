@@ -13,7 +13,7 @@ body {
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid seashell;
-  height: 69px;
+  height: 70px;
   z-index: 1;
 }
 
@@ -55,23 +55,34 @@ h2, h4 {
 }
 
 .section-totm {
-  height: 1000px;
-  width: 800px;
-  margin: auto;
-  padding-top: 60px;
-}
-
-.teas-totm {
   display: flex;
-  text-align: center;
-  width: 100%;
-  height:auto;
+  padding-top: 60px;
+  flex-direction: column;
+  align-content: center;
+  width: 1000px;
   margin:auto;
 }
 
-.teas img {
+.title-totm {
+  text-align: center;
+}
+
+.tea-totm {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+
+.tea img {
   height: 200px;
   width: 300px;
-  border: 1px solid blue;
+  padding-right: 30px;
+  padding-top: 20px;
+}
 
+.tea span {
+  display: block;
+  padding-top: 10px;
+  font-weight: bold;
 }
