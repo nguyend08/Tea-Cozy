@@ -15,6 +15,7 @@ body {
   border-bottom: 1px solid seashell;
   height: 70px;
   z-index: 1;
+  position: fixed;
 }
 
 .logo {
@@ -85,4 +86,46 @@ h2, h4 {
   display: block;
   padding-top: 10px;
   font-weight: bold;
+}
+
+.section-location {
+  display: flex;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  height:600px;
+  flex-direction: column;
+  align-content: center;
+  width: 1200px;
+  margin:auto;
+  margin-top: 70px;
+}
+
+.title-location {
+  opacity: 1;
+  margin: 0;
+  border: 1px solid blue;
+}
+
+.location-location {
+  display: flex;
+  margin: auto;
+  border: 1px solid blue;
+}
+
+.location {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  background-color: black;
+  align-items: center;
+  width: 300px;
+  opacity: 1;
+}
+
+.contact {
+  height: 200px;
+}
+
+.copyright {
+  text-align: left;
+  padding-left:20px;
 }
