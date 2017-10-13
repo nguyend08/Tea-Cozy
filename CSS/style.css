@@ -16,6 +16,9 @@ body {
   height: 70px;
   z-index: 1;
   position: fixed;
+  background-color: black;
+  top: 0;
+  padding: 10px 5px;
 }
 
 .logo {
@@ -102,13 +105,11 @@ h2, h4 {
 .title-location {
   opacity: 1;
   margin: 0;
-  border: 1px solid blue;
 }
 
-.location-location {
+.sites-location {
   display: flex;
   margin: auto;
-  border: 1px solid blue;
 }
 
 .location {
