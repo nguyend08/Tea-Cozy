@@ -94,32 +94,37 @@ h2, h4 {
 .section-location {
   display: flex;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
-  height:600px;
-  flex-direction: column;
-  align-content: center;
+  height: 600px;
   width: 1200px;
-  margin:auto;
+  margin: auto;
+  flex-wrap: wrap;
   margin-top: 70px;
 }
 
-.title-location {
-  opacity: 1;
-  margin: 0;
+.title-location, .sites-location {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 1200px;
 }
 
-.sites-location {
-  display: flex;
-  margin: auto;
+.title-location {
+  align-items: flex-end;
+  /*this aligns the h3 to the bottom of the container*/
 }
 
 .location {
   display: flex;
   flex-direction: column;
-  margin: 20px;
   background-color: black;
+  padding-top: 15px;
   align-items: center;
+  margin-bottom: 50px;
   width: 300px;
   opacity: 1;
+  height: 300px;
+  justify-content: center;
+  margin: 20px;
 }
 
 .contact {
@@ -127,6 +132,7 @@ h2, h4 {
 }
 
 .copyright {
+  display: flex;
   text-align: left;
   padding-left:20px;
 }
